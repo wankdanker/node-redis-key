@@ -46,7 +46,7 @@ I've been generating redis keys like this:
 var key = ['part1', var1, var2, var3].join(':');
 ```
 
-I thought it would be more consise to be able to do this:
+I thought it would be more concise to be able to do this:
 
 ```js
 var key = k('part1', var1, var2, var3);
