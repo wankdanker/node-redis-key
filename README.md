@@ -37,6 +37,14 @@ var key = rk('part', 1, 3);
 //key = "part/1/3"
 ```
 
+api
+---
+
+### .defaults([separator, [prefix]])
+
+* separator - [string] the character[s] to put between the tokens that make up your key (default ':')
+* prefix - [string] an additional token that is prefixed to the key
+
 motivation
 ----------
 
